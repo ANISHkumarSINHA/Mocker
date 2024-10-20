@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-<>
-{/*
 const PracticeTopQuestions = () => {
+<>
+{/*   //yha comment kiye h
+
   const sections = [
     { title: 'DSA', question: 'Why do we use DP instead of recursion?' },
     { title: 'AI/ML', question: 'What is the difference between supervised and unsupervised learning?' },
@@ -100,7 +101,7 @@ const TrainAnimation = () => {
       <div className="train flex items-center">
         
         <div className="engine flex items-center justify-center bg-blue-500 text-white text-lg font-bold p-4 rounded-l-lg shadow-lg">
-          🚂 Interview
+           Interview
         </div>
         
         
@@ -182,10 +183,11 @@ const TrainAnimation = () => {
           border-radius: 50%;
         }
       `}</style>
-    </div>
+    </div> 
+    );             //yha comment kiye h❤️
    */}
     </>
-  );
+  
 };
 
 export default PracticeTopQuestions;
