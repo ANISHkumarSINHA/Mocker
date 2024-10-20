@@ -130,7 +130,7 @@ const Upgrade = () => {
       </div>
     </div>       // yha pe se ye hta do❤️
     */}   
-    </> 
+    </>
     
   );
 };
