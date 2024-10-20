@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-
+<>
+{/*
 const PracticeTopQuestions = () => {
   const sections = [
     { title: 'DSA', question: 'Why do we use DP instead of recursion?' },
@@ -87,7 +88,7 @@ const PracticeTopQuestions = () => {
         ))}
       </div>
 
-      {/* Train Simulation */}
+      
       <TrainAnimation />
     </div>
   );
@@ -97,31 +98,31 @@ const TrainAnimation = () => {
   return (
     <div className="train-container">
       <div className="train flex items-center">
-        {/* Train Engine */}
+        
         <div className="engine flex items-center justify-center bg-blue-500 text-white text-lg font-bold p-4 rounded-l-lg shadow-lg">
           🚂 Interview
         </div>
         
-        {/* Train Coaches */}
+        
         {['Google', 'Microsoft', 'Facebook', 'Apple', 'Netflix'].map((company, index) => (
           <div key={index} className="coach flex items-center justify-center bg-gray-300 text-black text-lg font-bold p-4 border-l-4 border-gray-400 shadow-lg">
             {company}
           </div>
         ))}
 
-        {/* Smoke */}
+        
         <div className="smoke"></div>
         <div className="smoke delay-1"></div>
         <div className="smoke delay-2"></div>
       </div>
 
-      {/* Embedded CSS for Train Animation */}
+      
       <style jsx>{`
         .train-container {
           width: 100%;
-          height: 150px; /* Adjust height as needed */
+          height: 150px; 
           position: fixed;
-          bottom: 20px; /* Move the train further down */
+          bottom: 20px; 
           left: 0;
           overflow: hidden;
           z-index: 100;
@@ -129,13 +130,13 @@ const TrainAnimation = () => {
 
         .train {
           position: absolute;
-          transform: translateX(100%); /* Start off-screen to the right */
-          animation: moveTrain 12s linear infinite; /* Adjust duration for speed */
+          transform: translateX(100%); 
+          animation: moveTrain 12s linear infinite; 
         }
 
         @keyframes moveTrain {
-          0% { transform: translateX(100%); } /* Start from the rightmost part */
-          100% { transform: translateX(-100%); } /* Move to the leftmost part */
+          0% { transform: translateX(100%); }
+          100% { transform: translateX(-100%); } 
         }
 
         .smoke {
@@ -182,6 +183,8 @@ const TrainAnimation = () => {
         }
       `}</style>
     </div>
+   */}
+    </>
   );
 };
 
