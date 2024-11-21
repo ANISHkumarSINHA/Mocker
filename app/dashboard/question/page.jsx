@@ -2,8 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 const PracticeTopQuestions = () => {
-<>
-  
 
   const sections = [
     { title: 'DSA', question: 'Why do we use DP instead of recursion?' },
@@ -185,8 +183,7 @@ const TrainAnimation = () => {
       `}</style>
     </div> 
     );             
-  
-    </>
+
   
 };
 
