@@ -6,8 +6,8 @@ import { useUser } from "@clerk/nextjs";
 const Upgrade = () => {
   const { user } = useUser();
   return (
-    <>
-    {/*  // yha pe se ye hta do ❤️
+    
+     
     <div className="p-5">
         <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <h1 className="text-center font-bold mb-5 text-red-600 text-3xl" >Testing Mode</h1>
@@ -128,9 +128,9 @@ const Upgrade = () => {
           ))}
         </div>
       </div>
-    </div>       // yha pe se ye hta do❤️
-    */}   
-    </>
+    </div>       
+    
+    
     
   );
 };
